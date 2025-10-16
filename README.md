@@ -163,30 +163,38 @@ Reflections: Deployment connects ML backend to applications; training feels comp
 
 # Day 25 – Object Detection Project (July 21, 2025)
 
-🎯 Objective
+Of course! Here is the updated project description for an Automobile Prediction System.
 
-Detect objects in images or live video using YOLOv8 (Ultralytics) for a real-time object detection system.
+***
 
-📚 Project Summary
+### 🎯 **Objective**
 
-Project: Object Detection with YOLOv8
-Goal: Detect multiple objects in images or video feed (webcam) and display bounding boxes with labels.
-Tech Used: Python, OpenCV, Ultralytics YOLOv8, Numpy, Matplotlib
-Methodology
+Predict the market price of automobiles using machine learning based on a set of features like make, model, year, mileage, and engine specifications.
 
-Install and set up YOLOv8 environment.
-Load pre-trained YOLOv8 model.
-Capture images/video (live webcam or file).
-Run object detection inference.
-Display detected objects with bounding boxes and confidence scores.
-Key Outcome: Real-time object detection with accurate bounding boxes and class labels.
+---
 
-🛠️ Technologies Mastered
+### 📚 **Project Summary**
 
-Technology	Concepts Covered	Proficiency Level	Days
-Python	Data Structures, Functions, Object-Oriented Programming (OOP)	Advanced	4 days
-Numpy	Array operations, Vectorization, Mathematical/Statistical functions	Advanced	3 days
-Pandas	DataFrames, Data Cleaning, Grouping, Sorting, Merging, Time Series	Advanced	5 days
-Scikit-learn	Model training, Evaluation, Cross-validation, Pipelines	Advanced	6 days
-Matplotlib/Seaborn	Data visualization, Custom plotting, Statistical charts	Advanced	3 days
-Additional Tools	Jupyter Notebooks, Git, Interview Preparation, Project Deployment	Intermediate	4 days
+* **Project:** Automobile Price Prediction System
+* **Goal:** Develop a machine learning model to accurately predict the price of used cars based on their attributes.
+* **Tech Used:** Python, Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn
+* **Methodology:**
+    1.  **Data Collection & Preprocessing:** Gather automobile data and clean it by handling missing values, duplicates, and outliers.
+    2.  **Exploratory Data Analysis (EDA):** Analyze the data to understand relationships between features and the target variable (price).
+    3.  **Feature Engineering:** Select relevant features and transform them (e.g., one-hot encoding for categorical variables) to prepare the data for modeling.
+    4.  **Model Training & Evaluation:** Train various regression models (e.g., Linear Regression, Random Forest) and evaluate their performance using metrics like R-squared and Mean Absolute Error.
+    5.  **Prediction:** Use the best-performing model to make price predictions on new, unseen data.
+* **Key Outcome:** A robust predictive model that can estimate automobile prices with high accuracy, providing valuable insights for buyers and sellers.
+
+---
+
+### 🛠️ **Technologies Mastered**
+
+| Technology | Concepts Covered | Proficiency Level | Days |
+| :--- | :--- | :--- | :--- |
+| **Python** | Data Structures, Functions, Object-Oriented Programming (OOP) | Advanced | 4 days |
+| **Numpy** | Array operations, Vectorization, Mathematical/Statistical functions | Advanced | 3 days |
+| **Pandas** | DataFrames, Data Cleaning, Grouping, Sorting, Merging, Time Series | Advanced | 5 days |
+| **Scikit-learn**| Model training, Evaluation, Cross-validation, Pipelines | Advanced | 6 days |
+| **Matplotlib/Seaborn**| Data visualization, Custom plotting, Statistical charts | Advanced | 3 days |
+| **Additional Tools**| Jupyter Notebooks, Git, Interview Preparation, Project Deployment | Intermediate | 4 days |
